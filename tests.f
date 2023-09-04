@@ -23,7 +23,7 @@ S" htdocs/tests/tester.fr" INCLUDED
 	S" htdocs/tests/stringtest.fth" INCLUDED
 	S" htdocs/tests/exceptiontest.fth" INCLUDED
 	S" htdocs/tests/toolstest.fth" INCLUDED
-    S" htdocs/tests/filetest.fth" INCLUDED
+\    S" htdocs/tests/filetest.fth" INCLUDED
 CR CR .( Forth tests completed ) CR CR
 
 

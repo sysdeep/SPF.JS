@@ -1,10 +1,11 @@
-var spf = require("./htdocs/forth.js");
-var words = require("./forthnode.js");
 var fs = require("fs");
 var path = require("path");
 
-function start_forth(uri) {
-    fs.readFile(path.join(__dirname, uri), function(err, data) {
+var spf = require("../../htdocs/forth.js");
+var words = require("../../forthnode.js");
+
+function start_forth(uri: string) {
+    fs.readFile(path.join(__dirname, uri), function(err: Error, data: any) {
         if (err) throw err;
 
         var fs = new spf.Forth(data, {
@@ -18,4 +19,4 @@ function start_forth(uri) {
     });
 }
 
-start_forth("./forth.img");
+start_forth("../../forth.img");

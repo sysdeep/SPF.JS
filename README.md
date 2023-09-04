@@ -28,4 +28,9 @@ write me at yarus23@gmail.com
 
 license is Public domain and apache 2.0 as you wish
 
-https://yarus23.github.io/SPF.JS/
+- https://yarus23.github.io/SPF.JS/
+- https://spf.sourceforge.net/
+- https://sourceforge.net/projects/spf/files/
+- https://sourceforge.net/p/spf/spf/ci/master/tree/
+- https://github.com/rufig
+- http://www.forth.org.ru/
